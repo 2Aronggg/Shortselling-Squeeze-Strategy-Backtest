@@ -137,11 +137,13 @@ python src/backtest.py
 생성 폴더:
 
 results/
-├── metrics.csv           ← 성과 지표
-├── summary.txt           ← 최종 요약
-└── daily_pnl_*.csv       ← 일간 손익
+├── metrics.csv                   ← 성과 지표 (Sharpe, Return, MDD, Win Rate)
+├── summary.txt                   ← 최종 요약 (텍스트 형식)
+├── daily_pnl_strategy2.csv       ← 전략 2 일간 손익
+└── daily_pnl_strategy3.csv       ← 전략 3 일간 손익
 
 visualizations/
-├── cumulative_return.png ← 누적 수익 차트
-├── monthly_returns.png   ← 월별 수익
-└── sharpe_comparison.png ← Sharpe 비교
+├── cumulative_return.png         ← 누적 수익 차트
+├── monthly_returns.png           ← 월별 수익 비교
+├── sharpe_comparison.png         ← Sharpe 비율 비교
+└── factor_signals.png            ← 팩터 신호 분석
