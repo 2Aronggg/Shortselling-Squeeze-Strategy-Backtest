@@ -108,7 +108,7 @@ Win Rate:         TBD
 
 ##  빠른 시작
 
-### 1️ 설치
+### 1️. 설치
 ```bash
 # 레포지토리 클론
 git clone https://github.com/[your-username]/short-interest-backtest.git
@@ -118,7 +118,7 @@ cd short-interest-backtest
 pip install -r requirements.txt
 ```
 
-### 2️ 데이터 준비
+### 2️. 데이터 준비
 ```
 data/raw/ 폴더에 다음 3개 파일 필요:
 
@@ -127,12 +127,12 @@ data/raw/ 폴더에 다음 3개 파일 필요:
 ✓ pbr_data_raw.csv         (PBR - 분기별)
 ```
 
-### 3️ 실행
+### 3️. 실행
 ```bash
 python src/backtest.py
 ```
 
-### 4️ 결과 확인
+### 4️. 결과 확인
 ```
 생성 폴더:
 
