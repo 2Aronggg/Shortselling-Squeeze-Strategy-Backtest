@@ -1,0 +1,27 @@
+# Backtesting Configuration
+
+# Data Period
+start_date: "2018-01-01"
+split_date: "2025-01-01"    # Training/Validation split point
+end_date: "2025-06-06"
+
+# Strategy Parameters
+alpha: 0.15                  # Factor overlay adjustment strength
+transaction_cost: 0.0005     # 0.05% per trade
+risk_free_rate: 0.035        # 3.5% annual risk-free rate
+
+# Backtesting Settings
+rebalance_frequency: "W"     # Weekly rebalancing (Monday)
+min_weight: 0.002            # Minimum position size (0.2%)
+max_weight: 0.05             # Maximum position size (5%)
+
+# Universes
+universes:
+  - kospi200
+  - kosdaq150
+
+# Output Settings
+save_results: true
+save_visualizations: true
+results_dir: "results"
+visualizations_dir: "visualizations"
