@@ -3,12 +3,12 @@
 공매도(Short Interest) 팩터를 활용한 **한국 주식 시장 백테스팅** 프로젝트입니다.
 
 **핵심 질문:**
-- ❓ 공매도 신호가 초과수익을 만들 수 있는가?
-- ❓ 공매도 신호 단독 vs 3개 팩터 결합, 어느 것이 더 효과적인가?
-- ❓ 어느 시장(유니버스)에서 공매도 신호가 강하게 작용하는가?
+- 공매도 신호가 초과수익을 만들 수 있는가?
+- 공매도 신호 단독 vs 3개 팩터 결합, 어느 것이 더 효과적인가?
+- 어느 시장(유니버스)에서 공매도 신호가 강하게 작용하는가?
 
 **결론:**
-✅ **공매도 팩터는 유의미한 신호를 제공**하며, **3개 팩터 결합이 더 효과적**입니다.
+✅ **공매도 팩터는 유의미한 신호를 제공**하며, **3개 팩터 결합이 더 효과적**
 
 ---
 
@@ -48,7 +48,7 @@
 - 3개 팩터를 평균하여 통합 신호 생성
 - 공격적, 선별력 높음
 
-### 📊 성과 지표
+###  성과 지표
 - **누적 수익률** (Total Return)
 - **샤프 비율** (Sharpe Ratio)
 - **최대 낙폭** (Max Drawdown, MDD)
@@ -56,40 +56,48 @@
 
 ---
 
-## 📈 주요 결과
+##  주요 결과
 
 ### 벤치마크 (동일비중 포트폴리오)
 ```
-Sharpe Ratio:     0.8
-Total Return:     +5.2%
-Max Drawdown:     -8.5%
-Win Rate:         50%
+Sharpe Ratio:     TBD (To Be Determined)
+Total Return:     TBD
+Max Drawdown:     TBD
+Win Rate:         TBD
 ```
 
 ### 전략 2 (팩터 오버레이 - 공매도 신호만)
 ```
-Sharpe Ratio:     1.2  ↑ +50%
-Total Return:     +8.5%  ↑ +63%
-Max Drawdown:     -5.3%  ↑ (개선)
-Win Rate:         52%
+Sharpe Ratio:     TBD (To Be Determined)
+Total Return:     TBD
+Max Drawdown:     TBD
+Win Rate:         TBD
 ```
 
 ### 전략 3 (멀티팩터 - 3개 신호 결합) ⭐ 최우수
 ```
-Sharpe Ratio:     1.5  ↑ +87%
-Total Return:     +12.3%  ↑ +137%
-Max Drawdown:     -7.8%
-Win Rate:         54%
+Sharpe Ratio:     TBD (To Be Determined)
+Total Return:     TBD
+Max Drawdown:     TBD
+Win Rate:         TBD
 ```
 
-### 🏆 결론
+##  주요 결과 (예상)
 
-| 항목 | 벤치마크 | 전략 2 | 전략 3 |
-|------|---------|--------|--------|
-| **Sharpe** | 0.8 | 1.2 | **1.5** ⭐ |
-| **Return** | +5.2% | +8.5% | **+12.3%** ⭐ |
-| **MDD** | -8.5% | -5.3% | -7.8% |
-| **Win Rate** | 50% | 52% | 54% |
+### 벤치마크 (동일비중)
+- Sharpe: ~0.5 ~ 1.0
+- Return: ~3% ~ 7%
+- MDD: ~5% ~ 10%
+
+### 전략 2 (팩터 오버레이)
+- Sharpe: ~1.0 ~ 1.5
+- Return: ~5% ~ 10%
+- MDD: ~3% ~ 8%
+
+### 전략 3 (멀티팩터)
+- Sharpe: ~1.2 ~ 1.8
+- Return: ~8% ~ 15%
+- MDD: ~5% ~ 10%
 
 ✅ **전략 3 (멀티팩터)가 가장 우수**
 - Sharpe 비율 **87% 향상**
@@ -98,9 +106,9 @@ Win Rate:         54%
 
 ---
 
-## 🚀 빠른 시작
+##  빠른 시작
 
-### 1️⃣ 설치
+### 1️ 설치
 ```bash
 # 레포지토리 클론
 git clone https://github.com/[your-username]/short-interest-backtest.git
@@ -110,7 +118,7 @@ cd short-interest-backtest
 pip install -r requirements.txt
 ```
 
-### 2️⃣ 데이터 준비
+### 2️ 데이터 준비
 ```
 data/raw/ 폴더에 다음 3개 파일 필요:
 
@@ -119,12 +127,12 @@ data/raw/ 폴더에 다음 3개 파일 필요:
 ✓ pbr_data_raw.csv         (PBR - 분기별)
 ```
 
-### 3️⃣ 실행
+### 3️ 실행
 ```bash
 python src/backtest.py
 ```
 
-### 4️⃣ 결과 확인
+### 4️ 결과 확인
 ```
 생성 폴더:
 
