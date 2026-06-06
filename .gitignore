@@ -1,0 +1,39 @@
+# Raw data 
+data/raw/*.csv
+data/raw/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Temp files
+*.tmp
+.cache/
+*.log
+
+# Config (민감한 정보)
+config/secrets.yaml
+.env
